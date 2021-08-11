@@ -25,11 +25,110 @@ For banner over lay add this class to your div
   </div>
 </div>
 */
-.banner__container {
-  position: relative;
+
+.flex{
+  display: flex;
+  justify-content: space-between;
 }
 
-.banner__container:before {
+.resize__logo{
+  width: 75%;
+  height: auto;
+  margin: 10px 15px;
+}
+
+.space{
+  margin-inline: 25px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.box{
+  flex-wrap: wrap;
+}
+
+.flex01{
+  display: flex;
+  justify-content: space-between;
+}
+
+.each{
+  padding: 01px;
+}
+
+
+.active{
+  text-decoration: none;
+  color: black;
+}
+
+.banner__container {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 800px;
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: white;
+  text-shadow: 1px 1px 1px teal;
+}
+
+.large__font__size{
+  font-size: 50px;
+}
+
+.red__box{
+  background-color: red;
+  border: 2px 2px;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 2px;
+  border-radius: 4px;   
+}
+
+
+.active__red__box{
+  background-color: red;
+  color: white;
+}
+
+.active__red__box:hover{
+  background-color: salmon;
+  color: white;
+}
+
+.no__underline{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+}
+
+.container{
+  margin-top: 50px;
+  border: 2px solid gray;
+  padding: 20px 20px
+}
+
+.structure{
+  margin-top: 70px;
+}
+
+/* .large__logo{
+
+} */
+
+/* .banner__container:before {
   position: absolute;
   top: 0;
   right: 0;
@@ -37,4 +136,109 @@ For banner over lay add this class to your div
   bottom: 0;
   background-color: rgba(0,0,0,0.4);
   content: "";
+} */
+
+.centralise{
+  text-align: center;
+}
+
+.container02 {
+  display: grid;
+  /* grid-template-columns: ;
+  grid-template-rows: ; */
+
+  margin-top: 10px;
+}
+
+.center{
+  text-align: center;
+  margin-top: 35px;
+}
+
+.large__font{
+  font-size: 35px;
+  padding-top: 35px;
+}
+
+.larger{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.box01{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.5px solid rgb(183, 180, 180);
+  margin-top: 35px;
+  margin-right: 35px;
+  margin-left: 35px;
+  height: 300px;
+  width: 500px;
+}
+
+.box02{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.5px solid rgb(183, 180, 180);
+  margin-top: 35px;
+  margin-right: 35px;
+  margin-left: 35px;
+  height: 300px;
+  width: 500px;
+}
+
+.box03{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.5px solid rgb(183, 180, 180);
+  margin-top: 35px;
+  margin-right: 35px;
+  margin-left: 35px;
+  height: 300px;
+  width: 500px;
+}
+
+.middle{
+  text-align: center;
+}
+
+.white{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 68px;
+  transform: translate(50%, 50%);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+  /* justify-content: center;
+  flex-direction: column;
+  align-self: center; */
+
+
+.font__big{
+  font-size: 28px;
+}
+
+.box04{
+  padding-left: 15px;
+}
+
+.fontbox04{
+  text-align:left
+  font-size: larger;
+}
+
+.container03{
+  border: 0.5px solid rgb(183, 180, 180);
+  margin-left: 35px;
+  height: 35px;
+  width: 500px;
+  background-color: rgb(234, 233, 233);
+  padding-top: 25px;
+  padding-bottom: 65px;
 }
